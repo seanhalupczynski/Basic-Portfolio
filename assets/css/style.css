@@ -1,0 +1,10 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: orange;
+}
+
+.heading{
+    background-color: #4aaaa5;
+    color: #cccccc;
+}

@@ -1,10 +1,16 @@
-body{
+body {
     margin: 0 auto;
     padding: 0 auto;
-    background-color: orange;
 }
 
-.heading{
+.heading {
     background-color: #4aaaa5;
     color: #cccccc;
+    width: 200px;
+    margin-left: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+button {
+    float: right;
 }

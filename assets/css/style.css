@@ -3,17 +3,17 @@ body {
 }
 
 header {
-    background-color:gray;
+    background-color:#ffffff;
     width: 100%;
     overflow: auto;
+    border: 2px solid #cccccc;
 }
 
 #navBar {
-    border-bottom-color: #dddddd;
-    border-bottom: 10px;
-    background-color: green;;
     width: 100%;
     overflow: auto;
+
+    background-color: green;
 }
 .tabs a {
     float:right;
@@ -38,32 +38,38 @@ header {
     overflow: inherit;
 }
 
-h1.sectionHeader {
-    font-size: 28px;
-    font-weight: bold;
-}
-
 #aboutMe {
     width: 960px;
     height: 500px;
     margin: 50px 200px;
-    background-color: white;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 20px 10px;
 }
 
 #portfolioSection {
     width: 960px;
     height: 500px;
     margin: 50px 200px;
-    background-color: white;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 20px 10px;
 }
 
 #contactForm {
     width: 960px;
     height: 500px;
     margin: 50px 200px;
-    background-color: white;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 20px 10px;
 }
 
+h1.sectionHeader {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 
 
@@ -72,6 +78,6 @@ footer {
     height: 50px;
     text-align: center;
     color: white;
-    background-color: dimgray;
+    background-color: #666666;
     padding-top: 20px;
 }

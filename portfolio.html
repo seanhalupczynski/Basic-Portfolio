@@ -5,33 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <!-- Title Bar -->
-    <div id="title-bar">
-        <header>
-            <h1 class="heading">
-                Sean Halupczynski
-            </h1>
-        <button id="about">About Me</button>
-        <button id="portfolio">Portfolio</button>
-        <button id="contact">Contact Me</button>
-        </header>
-    </div>
-    <!-- Portfolio Header -->
-    <div>
-        <h1>Portfolio</h1>
-    </div>
-    <!-- Portfolio Image Panes -->
-    <div>
-        <img src="#" alt="Hangman">
-        <img src="#" alt="RPG Game">
-        <img src="#" alt="Trivia Game">
-        <img src="#" alt="Info Widget">
-        <img src="#" alt="Rock Paper Scissors">
-    </div>
+    <header id="titleBar">
+        <div id="navBar">
+            <div id="name">
+               Sean Halupczynski
+            </div> 
+            <div class="tabs">
+                <a id="about" href="#">About Me</a>
+                <a id="portfolio" href="#">Portfolio</a>
+                <a id="contact" href="#">Contact Me</a>
+            </div> 
+        </div>
+    </header>
+    <!-- Body Section -->
+    <section id="portfolioSection">
+        <!-- Portfolio Header -->
+        <div id="portfolioHeader">
+            <h1 class="sectionHeader">Portfolio</h1>
+        </div>
+        <!-- Portfolio Image Panes -->
+        <div>
+            <img src="#" alt="Hangman">
+            <img src="#" alt="RPG Game">
+            <img src="#" alt="Trivia Game">
+            <img src="#" alt="Info Widget">
+            <img src="#" alt="Rock Paper Scissors">
+        </div>
+    </section>
     <!-- Footer -->
     <div>
         <footer>Copyright</footer>

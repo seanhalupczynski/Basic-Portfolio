@@ -5,34 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <!-- Code for the bar on the top of the screen -->
-    <div id="title-bar">
-        <header>
-            <h1 class="heading">
-                Sean Halupczynski
-            </h1>
-            <button>About Me</button>
-            <button>Portfolio</button>
-            <button>Contact Me</button>
-        </header>
-    </div>
+    <!-- Title Bar -->
+    <header id="titleBar">
+        <div id="navBar">
+            <div id="name">
+               Sean Halupczynski
+            </div> 
+            <div class="tabs">
+                <a id="about" href="#">About Me</a>
+                <a id="portfolio" href="#">Portfolio</a>
+                <a id="contact" href="#">Contact Me</a>
+            </div> 
+        </div>
+    </header>
     <!-- The About Me section -->
-    <div id="aboutMe">
+    <section id="aboutMe">
         <!-- Title -->
-        <h1>About Me</h1>
+        <div id="aboutMeTitle">
+            <h1 class="sectionHeader">About Me</h1>
+        </div>
         <!-- My Picture -->
-        <div id="my-photo">
+        <div id="myPhoto">
             <img src="#" alt="myPhoto">
         </div>
         <!-- Paragraphs about me -->
         <div>
             <p>Enter quick bio here</p>
         </div>
-    </div>
+    </section>
     <!-- Footer -->
     <div>
         <footer>Copyright</footer>

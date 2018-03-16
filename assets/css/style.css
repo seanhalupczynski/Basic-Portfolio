@@ -38,37 +38,13 @@ header {
     overflow: inherit;
 }
 
-#aboutMe {
-    width: 960px;
-    height: 500px;
-    margin: 50px 200px;
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-    padding: 20px 10px;
-}
-
-#portfolioSection {
-    width: 960px;
-    height: 500px;
-    margin: 50px 200px;
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-    padding: 20px 10px;
-}
-
-#contactForm {
-    width: 960px;
-    height: 500px;
-    margin: 50px 200px;
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-    padding: 20px 10px;
-}
-
 h1.sectionHeader {
     font-size: 28px;
     font-weight: bold;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dddddd;
 }
 
 

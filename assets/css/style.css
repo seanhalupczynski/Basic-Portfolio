@@ -1,5 +1,5 @@
 body {
-    background-color: lightcoral;
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png");
 }
 
 header {
@@ -12,17 +12,25 @@ header {
 #navBar {
     width: 100%;
     overflow: auto;
-
-    background-color: green;
 }
 .tabs a {
     float:right;
     margin-right: 10px;
-    padding-top: 15px;
-    background-color: white;
+    padding-top: 25px;
     width: 100px;
     text-align: center;
-    overflow: inherit;
+    height: 45px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+#about {
+    border-right: 1px solid #777777;
+}
+
+#portfolio {
+    border-right: 1px solid #777777;
 }
 #name {
     background-color: #4aaaa5;
@@ -56,4 +64,6 @@ footer {
     color: white;
     background-color: #666666;
     padding-top: 20px;
+    position: static;
+    bottom: 0;
 }
